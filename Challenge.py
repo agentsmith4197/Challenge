@@ -15,8 +15,8 @@ user = int(input("Enter the number for Pascal's Triangle: "))
 if user > 0:
      pascals = Pascals_triangle(user)
     
-     print(f"The Pascal's Triangle for {user} is:")
+     print(f"Pascal's Triangle for index {user} is:")
      for i in pascals:
         print(i)
 else:
-    print("Number of rows must be non-negative.")￼Enter
+    print("Number of index must be a non-negative.")￼Enter
