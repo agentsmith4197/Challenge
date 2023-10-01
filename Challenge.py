@@ -19,4 +19,4 @@ if user > 0:
      for i in pascals:
         print(i)
 else:
-    print("Number of index must be a non-negative.")￼Enter
+    print("Number of index must be a non-negative integer.")
